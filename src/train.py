@@ -102,7 +102,7 @@ if __name__ == '__main__':
         batch_size=256,
     )
     # Higher weight for malign, with special importance to adenocarcinom
-    class_weights = torch.tensor([1.0, 4¡.0, 1.0]).to(model.device) 
+    class_weights = torch.tensor([1.0, 4.0, 1.0]).to(model.device) 
     # Train the model
     model = train_lung_model(
         model=model,
