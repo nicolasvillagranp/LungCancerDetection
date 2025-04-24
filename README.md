@@ -31,3 +31,10 @@ A PyTorch-based pipeline for early detection of lung cancer subtypes using trans
   - TQDM progress bars  
   - Confusion matrix & classification report after each epoch  
 
+## Future Work
+- **Two-stage classification pipeline**
+  - Stage 1: Binary classifier for malignant vs. benign.
+  - Stage 2: Subtype classifier distinguishing adenocarcinoma vs. SCC only on malignant cases.
+- **Finetuning with Bayesian Optimization**
+
+
