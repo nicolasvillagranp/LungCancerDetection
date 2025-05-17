@@ -40,8 +40,8 @@ A PyTorch-based pipeline for early detection of lung cancer subtypes using trans
     - 🧠 Visualize **Saliency maps** to reveal fine-grained pixel influence
   - Example output:
     <p align="center">
-      <img src="docs/saliency.png" alt="Saliency Example" width="45%">
-      <img src="docs/softmax.png" alt="Softmax Probabilities" width="45%">
+      <img src="docs/grad_cam_saliency.PNG" alt="Saliency Example" width="45%">
+      <img src="docs/softmax_probs.PNG" alt="Softmax Probabilities" width="45%">
     </p>
 
   - Launch locally:
